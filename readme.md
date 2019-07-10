@@ -18,7 +18,7 @@
 > php artisan key:generate
 > php artisan config:clear
 > php artisan migrate
-> php artisan db:seed
+> php artisan db:seed --class=PatientsTableSeeder
 > php artisan cache:clear
 > php artisan serve
 ```
